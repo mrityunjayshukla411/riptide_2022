@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectCard from '../projectCards/projectCard';
 import "./explore.css";
 
 function Explore() {
@@ -34,6 +35,8 @@ function Explore() {
           <input type="radio" id='both' name='duration' value={"both"} />
           <label htmlFor="both">both</label>
         </div>
+
+        <ProjectCard/>
       </div>
     </>
   )

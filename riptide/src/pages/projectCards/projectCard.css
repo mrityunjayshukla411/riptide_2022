@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.project-card {
+  width: 66.805vw;
+  height: 100%;
+  background: #294175;
+  border-radius: 1.111vw;
+}
+
+.project-card .profile-image {
+  width: 3.75vw;
+  height: 3.75vw;
+  background: grey;
+  border-radius: 50%;
+}
+
+.project-card .project-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.6897px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.project-card .details {
+  display: flex;
+}
+
+.project-card .profile-image {
+  margin-left: 2.916vw;
+}
+
+.project-card .names {
+  margin-left: 0.902vw;
+}
+
+.project-card .university-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.363px;
+  line-height: 13px;
+  color: #ffffff;
+  margin-top: 2px;
+}
+
+.project-card .description {
+  width: 61.39vw;
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5082px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card .project-image{
+  width: 61.39vw;
+  max-height: 61.39vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display:block;
+}
