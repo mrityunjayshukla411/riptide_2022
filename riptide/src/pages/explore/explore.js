@@ -11,7 +11,6 @@ function Explore() {
             <div className="profile">profile</div>
           </div>
         </div>
-        
       </div>
 
     </>
