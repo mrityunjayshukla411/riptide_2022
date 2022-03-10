@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashboard {
+  margin-top: 3.47vw;
+  margin-bottom: 3.47vw;
+  position: relative;
+  width: 90.27vw;
+  height: 20.83vw;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 1.38vw rgba(0, 0, 0, 0.25);
+  border-radius: 2.084vw;
+}
+
+.dashboard .circle {
+  position: absolute;
+  width: 13.88vw;
+  height: 13.88vw;
+  background: #6f3285;
+  border: 0.69vw solid #ffffff;
+  border-radius: 50%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6.944vw;
+  color: #ffffff;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 3.47vw;
+}
+
+.dashboard .upper {
+  background: #6f3285;
+  height: 10.416vw;
+  border-radius: 2.084vw 2.084vw 0px 0px;
+}
+
+.dashboard .name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.47vw;
+  color: #ffffff;
+  text-transform: capitalize;
+  position: absolute;
+  left: 19.44vw;
+  top: 5.55vw;
+}
+
+.dashboard .username {
+  position: absolute;
+  left: 19.44vw;
+  top: 11.11vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.08vw;
+  line-height: 37px;
+}
+
+.dashboard .email {
+  position: absolute;
+  left: 19.44vw;
+  top: 13.81vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2.08vw;
+  line-height: 37px;
+}
+
+.dashboard .change-password {
+  position: absolute;
+  width: 16vw;
+  height: 3.68vw;
+  left: 72vw;
+  top: 11.8vw;
+  border-radius: 1.388vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.388vw;
+  line-height: 24px;
+  color: #6f3285;
+  border: 1px solid rgba(128, 128, 128, 0.8);
+  line-height: 3.68vw;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.dashboard .change-password:hover {
+  cursor: pointer;
+  background-color: #dcdcdc;
+  transition: 0.2s;
+}
+
+.dashboard .edit-name {
+  font-size: 2.78vw;
+  margin-left: 1.388vw;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.dashboard .edit-username {
+  font-size: 2.083vw;
+  margin-left: 0.694vw;
+  color: #6f3285;
+  cursor: pointer;
+}
+
+.tabs-container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #6f3285;
+}
+
+.tabs-container .css-1aquho2-MuiTabs-indicator {
+  background-color: #6f3285;
+}
+
+.tabs-container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  font-family: Montserrat;
+}
+
+.tabs-container .css-19kzrtu {
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .tabs-container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-size: 2.3vw;
+  }
+}

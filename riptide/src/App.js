@@ -3,15 +3,16 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import Dashboard from "./pages/dashboard/dashboard";
 import Explore from "./pages/explore/explore";
-import "./pages/explore/explore.css";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Explore></Explore>} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/dashboard" element={<Dashboard />}/>
         </Routes>
       </Router>
     </div>

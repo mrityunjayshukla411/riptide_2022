@@ -1,6 +1,61 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.explore-container {
+  background: #1b2a4a;
+  height: 100%;
+}
+
+.explore-container .logo {
+  padding-top: 2.08vw;
+  margin-left: 2.91vw;
+}
+
+.explore-container .search-profile {
+  display: flex;
+  position: absolute;
+  top: 1.38vw;
+  right: 2.91vw;
+  align-items: center;
+}
+
+.explore-container .profile {
+  width: 3.819vw;
+  height: 3.819vw;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.explore-container .search {
+  border: none;
+  outline: none;
+  background-color: #1b2a4a;
+  border-bottom: 2px solid #2c8bdf;
+  width: 255px;
+  margin-right: 30px;
+  height: 35px;
+  transition: 0.5s;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.explore-container .search:focus {
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+}
+
+.explore-container .selection {
+  text-align: center;
+  margin-top: 6.94vw;
+}
+
+.university, .domains {
+  margin: 30px;
+}
