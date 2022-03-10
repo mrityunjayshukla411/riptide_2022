@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projSugg-container {
+  width: 17.64vw;
+  height: 28.54vw;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.projSugg-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 2.29vw;
+  padding-bottom: 2.29vw;
+}
+.projSugg-list{
+  margin-left: 1.38vw;
+}
+.projSugg-name{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+margin-bottom: 5px;
+}
+
+.projSugg-uni{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 7px;
+color: #2C8BDF;
+margin-bottom: 7px;
+}
+
+.projSugg-domain{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 7px;
+color: #1B2A4A;
+margin-bottom: 1.25vw;
+}
