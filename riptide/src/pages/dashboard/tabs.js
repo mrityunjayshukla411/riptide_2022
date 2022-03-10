@@ -4,6 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import DashboardCard from './dashBoardCards/dashBoardCard'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -55,7 +56,8 @@ export default function TabsComponent() {
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          sldfkj
+          <DashboardCard />
+          <DashboardCard />
         </TabPanel>
         <TabPanel value={value} index={1}>
           dlsfj

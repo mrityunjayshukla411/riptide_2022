@@ -3,6 +3,7 @@ import "./projectCard.css"
 
 function ProjectCard() {
   return (
+    <>
     <div className='project-card'>
       <div className="details">
         <div className="profile-image"></div>
@@ -16,6 +17,9 @@ function ProjectCard() {
       </div>
       <img src="https://htmlcolorcodes.com/assets/images/colors/gray-color-solid-background-1920x1080.png" alt="project-image" className="project-image" />
     </div>
+      <br/>
+    </>
+    
   )
 }
 

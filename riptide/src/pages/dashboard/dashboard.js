@@ -2,6 +2,7 @@ import React from 'react'
 import "./dashboard.css";
 import TabsComponent from './tabs';
 
+
 function Dashboard() {
   return (
     <>
