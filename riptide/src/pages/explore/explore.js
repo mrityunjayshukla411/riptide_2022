@@ -14,12 +14,14 @@ function Explore() {
         </div>
         <div className="selection">
           <select name="university" className="university">
+            <option value="" disabled selected>organisations</option>
             <option value="a">a</option>
             <option value="b">b</option>
             <option value="c">c</option>
             <option value="d">d</option>
           </select>
           <select name="domains" className="domains">
+          <option value="" disabled selected>domains</option>
             <option value="a">a</option>
             <option value="b">b</option>
             <option value="c">c</option>
