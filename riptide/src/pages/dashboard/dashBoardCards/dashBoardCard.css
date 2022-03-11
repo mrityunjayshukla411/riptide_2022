@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.project-card {
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 66.805vw;
+  height: 100%;
+  background: #294175;
+  border-radius: 1.111vw;
+}
+
+.project-card .profile-image {
+  width: 3.75vw;
+  height: 3.75vw;
+  background: grey;
+  border-radius: 50%;
+}
+
+.project-card .project-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.6897px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.project-card .details {
+  display: flex;
+}
+
+.project-card .profile-image {
+  margin-left: 2.916vw;
+}
+
+.project-card .names {
+  margin-left: 0.902vw;
+}
+
+.project-card .university-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.363px;
+  line-height: 13px;
+  color: #ffffff;
+  margin-top: 2px;
+}
+
+.project-card .description {
+  width: 61.39vw;
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5082px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card .project-image {
+  width: 61.39vw;
+  max-height: 61.39vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+.like-btn {
+  margin-left: 2%;
+  width: 3.369vw;
+  height: 3.369vh;
+  left: 8.562vw;
+  top: 62.826vh;
+}
+.like-text {
+  width: 5.338vw;
+  height: 1.5625vw;
+  left: 13.28125vw;
+  top: 63.606770833333336vw;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.5756px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.collab-btn {
+  margin-left: 2%;
+  width: 3.369vw;
+  height: 3.369vh;
+  left: 8.562vw;
+  top: 62.826vh;
+}
+.tags {
+    margin-left: 10%;
+    width: 7.55vw;
+    height: 3.31vh;
+    left: 59.1145vw;
+    top: 137.147vh;
+    
+    background: #1b2a4a;
+    border-radius: 27.9651px;
+}
+.domain-text
+{
+    margin-left: 20%;
+    width: 6.57vw;
+    height: 3.36vh;
+    left: 51.49vw;
+top: 137.11vh;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 19.5756px;
+line-height: 24px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
