@@ -10,7 +10,7 @@ function Explore() {
           <div className="logo">logo</div>
           <div className="search-profile">
             <input placeholder='search' className="search"></input>
-            <div className="profile"></div>
+            <button className="profile"><a href='/dashboard'>Profile</a></button>
           </div>
         </div>
         <div className="selection">

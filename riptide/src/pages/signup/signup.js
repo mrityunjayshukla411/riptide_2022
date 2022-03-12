@@ -18,7 +18,7 @@ function Signup() {
             <label className='email-text'>Email</label>
             <input type="email" className="email-input" placeholder='email'/>
             <input type="password" className="password-input" placeholder='password'/>
-            <button type="submit" className="btn-input" value="Submit">Create Account</button>
+            <button type="submit" className="btn-input" value="Submit"><a href='/explore'>Create Account</a></button>
         </div>
     )
 }
