@@ -3,6 +3,9 @@ import "./dashBoardCard.css";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import PersonAddAltIcon from "@mui/icons-material/PersonAddAlt";
 import Chip from "@mui/material/Chip";
+import {TiTick} from 'react-icons/ti'
+import {FcWorkflow} from "react-icons/fc";
+
 
 function DashboardCard() {
   return (
@@ -14,6 +17,14 @@ function DashboardCard() {
             <div className="project-name">project name</div>
             <div className="university-name">university name</div>
           </div>
+        <div className="status">
+            <TiTick className='tick'/>
+            completed
+          </div>
+        {/* <div className="status">
+            <FcWorkflow className='ongo'/>
+            Ongoing
+          </div> */}
         </div>
         <div className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
