@@ -93,7 +93,7 @@
 
 .like-btn {
   margin-right: -1vw;
-  margin-left: 2vw;
+  margin-left: 2.61vw;
   margin-bottom: 2vw;
 }
 .like-btn:hover {
@@ -131,10 +131,22 @@
   height: 3.31vh;
   left: 59.1145vw;
   top: 137.147vh;
-  
-  background: #1b2a4a;
+  background: #1B2A4A;
   border-radius: 27.9651px;
+  color: #ffffff;
 }
+
+.tags:hover 
+{
+  background: #1D90F4;
+  
+}
+
+.css-6od3lo-MuiChip-label
+{
+  color: #ffffff;
+}
+
 .domain-text {
   
   margin-left: 8vw;

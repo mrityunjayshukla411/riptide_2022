@@ -43,7 +43,7 @@ function DashboardCard() {
           <span className="like-text">Like</span>
           <PersonAddAltIcon fontSize="large" className="collab-btn" />
           <span className="like-text">Collab</span>
-          <span className="domain-text">Domains</span>
+          <span className="domain-text">Domains :</span>
           <Chip label="html" variant="outlined" className="tags" />
           <Chip label="css" variant="outlined" className="tags" />
           <Chip label="js" variant="outlined" className="tags" />
