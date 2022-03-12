@@ -7,7 +7,7 @@ import TabsComponent from './tabs';
 function Dashboard() {
   return (
     <>
-      <CreatePost className='create-post'/>
+      {/* <CreatePost className='create-post'/> */}
     <div className="dashboard-container">
       <div className='dashboard'>
         <div className="circle">
@@ -19,7 +19,7 @@ function Dashboard() {
         <div className="lower">
           <div className="username">university@uni.com</div>
           <div className="email"></div>
-          <div className="change-password">Post Project</div>
+          <div className="change-password"><a href = "/create-post">Post Project</a></div>
         </div>
       </div>
       <TabsComponent/>
