@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-heading {
+  position: absolute;
+  width: 64vw;
+  height: 13vh;
+  left: 8vw;
+  top: 25vh;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 72px;
+
+  color: #ffffff;
+}
+
+.login-para {
+  /* Not a member? Sign up. */
+
+  position: relative;
+  width: 47vw;
+  height: 3vh;
+  left: 11vw;
+  top: 36vh;
+  
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  
+  color: #ffffff;
+}
+
+.email-login-input {
+  position: absolute;
+  width: 40vw;
+  height: 10vh;
+  left: 9vw;
+  top: 55vh;
+
+  background: #ffffff;
+  border-radius: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 18px;
+
+  color: #2b3041;
+}
+.password-login-input {
+  position: absolute;
+  width: 40vw;
+  height: 10vh;
+  left: 9vw;
+  top: 70vh;
+
+  background: #ffffff;
+  border-radius: 20px;
+  
+  
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 18px;
+
+  color: #2b3041;
+}
+
+.btn-input {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 25vw;
+  height: 10vh;
+  left: 18vw;
+  top: 79vh;
+
+  background: #1d90f4;
+  border-radius: 30px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ffffff;
+}

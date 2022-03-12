@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signup-heading {
+  /* Create new account. */
+
+  position: absolute;
+  width: 643px;
+  height: 10vh;
+  left: 127px;
+  top: 20vh;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 72px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.signup-para {
+  /* Already a member? Log in. */
+
+  position: absolute;
+  width: 593px;
+  height: 20px;
+  left: 135px;
+  top: 30vh;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+
+.signup-para2 {
+  /* Are you a student or a university? */
+
+  position: absolute;
+  width: 272px;
+  height: 20px;
+  left: 135px;
+  top: 35vh;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.radio-btn1 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 140px;
+  top: 40vh;
+
+  border: 3px solid #2c8bdf;
+  box-sizing: border-box;
+}
+.radio-btn2 {
+  /* Ellipse 2 */
+
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 397px;
+  top: 40vh;
+
+  border: 3px solid #2c8bdf;
+  box-sizing: border-box;
+}
+
+
+.name-input {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 559px;
+  height: 77px;
+  left: 127px;
+  top: 48vh;
+
+  background: #ffffff;
+  border-radius: 20px;
+  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 18px;
+  
+    color: #2b3041;
+}
+
+.email-input {
+  position: absolute;
+  width: 559px;
+  height: 77px;
+  left: 127px;
+  top: 60vh;
+
+  background: #ffffff;
+  border-radius: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 18px;
+
+  color: #2b3041;
+}
+
+
+
+.password-input {
+    /* Rectangle 5 */
+    
+    position: absolute;
+    width: 559px;
+    height: 77px;
+    left: 127px;
+    top: 72vh;
+    
+    background: #ffffff;
+    border-radius: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 18px;
+    
+    color: #2b3041;
+}
+
+.radio-l1
+{
+    /* University */
+
+position: absolute;
+width: 81px;
+height: 20px;
+left: 170px;
+top: 40vh;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.radio-l2
+{
+    /* Student */
+
+position: absolute;
+width: 66px;
+height: 20px;
+left: 427px;
+top: 40vh;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.btn-input
+{
+/* Rectangle 6 */
+
+position: absolute;
+width: 319px;
+height: 70px;
+left: 225px;
+top: 85vh;
+
+background: #1D90F4;
+border-radius: 30px;
+
+
+}
