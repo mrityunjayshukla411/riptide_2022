@@ -62,11 +62,32 @@
   margin-right: auto;
 }
 
-.project-card .project-image{
+.project-card .project-image {
   width: 61.39vw;
   max-height: 61.39vw;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  display:block;
+  display: block;
+}
+
+.project-card .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card .status {
+  margin-right: 2.5vw;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.041vw;
+  line-height: 18px;
+  color: #7cfc00;
+}
+
+.project-card .tick {
+  font-size: 1.736vw;
+  vertical-align: middle;
+  margin-right: 0.7vw;
 }
