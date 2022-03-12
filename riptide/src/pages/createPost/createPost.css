@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.create-post {
+  width: 58.055vw;
+  height: 70.625vw;
+  background: #1b2a4a;
+}
+
+.create-post .head {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.638vw;
+  line-height: 6.432vw;
+  color: #ffffff;
+  background: #294175;
+  height: 6.432vw;
+  text-align: center;
+  margin-bottom: 1.66vw;
+}
+
+.create-post .create-post-form {
+  width: 47.322vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-post label,
+span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.736vw;
+  line-height: 2.083vw;
+  color: #ffffff;
+}
+
+.create-post input,
+.create-post textarea {
+  background: #f9f8f8;
+  border-radius: 2.15vw;
+  width: 100%;
+  font-family: "Montserrat";
+  border: 0px;
+}
+
+#projectName,
+#url {
+  height: 4.17vw;
+  font-size: 1.736vw;
+  padding-left: 8px;
+}
+
+#description {
+  height: 187.07px;
+  font-size: 1.736vw;
+  padding-left: 8px;
+}
+
+.create-post .status {
+  display: flex;
+  align-items: baseline;
+  margin-bottom:3.47vw ;
+}
+
+.create-post input[type="radio"] {
+  width: 13px;
+  margin-left: 2vw;
+}
+
+.create-post .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.create-post .add-image,
+.create-post .post {
+  width: 21.45vw;
+  height: 3.47vw;
+  background: #1d90f4;
+  border-radius: 1.32vw;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.74vw;
+  line-height: 3.47vw;
+  color: #ffffff;
+  text-align: center;
+}
+
+.create-post .domain-tags {
+  display: flex;
+  justify-content: left;
+  margin-top: 2.2vw;
+  margin-bottom: 2.85vw;
+}
+
+.create-post .tag {
+  width: 8.33vw;
+  height: 1.7vw;
+  background: #2c8bdf;
+  border-radius: 2.01vw;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1vw;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 2.3vw;
+}
+
+.create-post select{
+  margin: 0;
+}
+
+.create-post .description{
+  margin-top: 1.66vw;
+}
+
+.create-post input, .create-post textarea{
+  margin-top: 1.32vw;
+  margin-bottom: 3.125vw;
+}
+
+.create-post .status {
+  height: 2.083vw;
+}
