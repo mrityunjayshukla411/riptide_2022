@@ -6,6 +6,8 @@ import TabsComponent from './tabs';
 function Dashboard() {
   return (
     <>
+    <div className="dashboard-container">
+
       <div className='dashboard'>
         <div className="circle">
           ss
@@ -20,6 +22,7 @@ function Dashboard() {
         </div>
       </div>
       <TabsComponent/>
+    </div>
     </>
   )
 }

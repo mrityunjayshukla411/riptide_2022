@@ -1,11 +1,20 @@
 * {
   margin: 0;
-  padding: 0;
+  padding-top: 0;
   box-sizing: border-box;
 }
 
+
+.dashboard-container
+{
+  height: 100%;
+  background-color: #1B2A4A;
+  padding-top: 3.47vw;
+}
+
+
 .dashboard {
-  margin-top: 3.47vw;
+  padding-top: -0.43vw;
   margin-bottom: 3.47vw;
   position: relative;
   width: 90.27vw;
@@ -20,7 +29,7 @@
   position: absolute;
   width: 13.88vw;
   height: 13.88vw;
-  background: #6f3285;
+  background: #294175;
   border: 0.69vw solid #ffffff;
   border-radius: 50%;
   text-transform: uppercase;
@@ -38,9 +47,14 @@
 }
 
 .dashboard .upper {
-  background: #6f3285;
+  background: #294175;
   height: 10.416vw;
   border-radius: 2.084vw 2.084vw 0px 0px;
+}
+.dashboard .lower {
+  border-radius: 0px 0px 2.084vw 2.084vw;
+  background: #ffffff;
+  padding-bottom: 29vh;
 }
 
 .dashboard .name {
@@ -83,13 +97,14 @@
   height: 3.68vw;
   left: 72vw;
   top: 11.8vw;
+  background-color: #1D90F4;
   border-radius: 1.388vw;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 1.388vw;
   line-height: 24px;
-  color: #6f3285;
+  color: #FFFFFF;
   border: 1px solid rgba(128, 128, 128, 0.8);
   line-height: 3.68vw;
   text-align: center;
@@ -98,7 +113,8 @@
 
 .dashboard .change-password:hover {
   cursor: pointer;
-  background-color: #dcdcdc;
+  background-color: #294175;
+  
   transition: 0.2s;
 }
 
@@ -117,11 +133,15 @@
 }
 
 .tabs-container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
-  color: #6f3285;
+  color: #FFFFFF;
+}
+.tabs-container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  color: #FFFFFF;
+
 }
 
 .tabs-container .css-1aquho2-MuiTabs-indicator {
-  background-color: #6f3285;
+  background-color: #1D90F4;
 }
 
 .tabs-container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
