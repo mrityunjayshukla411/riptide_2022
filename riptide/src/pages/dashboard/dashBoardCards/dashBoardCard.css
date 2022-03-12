@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.details
+{
+  padding-top: 5vh;
+}
+
 .project-card {
   margin-left: 15%;
   margin-top: 5%;
@@ -62,6 +67,8 @@
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .project-card .project-image {
@@ -71,62 +78,68 @@
   margin-right: auto;
   text-align: center;
   display: block;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.flex-container
+{
+  display: flex;
 }
 
 .like-btn {
-  margin-left: 2%;
-  width: 3.369vw;
-  height: 3.369vh;
-  left: 8.562vw;
-  top: 62.826vh;
+  margin-right: -1vw;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+}
+.like-btn:hover {
+  cursor: pointer;
+  color: #dcdcdc;
+  transition: 0.2s;
+  margin-right: -1vw;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
 }
 .like-text {
-  width: 5.338vw;
-  height: 1.5625vw;
-  left: 13.28125vw;
-  top: 63.606770833333336vw;
-
+  
+  margin-bottom: 3vh;
+  margin-right: 2vw;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 19.5756px;
   line-height: 24px;
-
+  margin-left: 2vw;
+  
   color: #ffffff;
 }
 .collab-btn {
-  margin-left: 2%;
-  width: 3.369vw;
-  height: 3.369vh;
-  left: 8.562vw;
-  top: 62.826vh;
+  margin-right: -1vw;
+}
+.collab-btn:hover {
+  cursor: pointer;
+  color: #dcdcdc;
+  transition: 0.2s;
 }
 .tags {
-    margin-left: 10%;
-    width: 7.55vw;
-    height: 3.31vh;
-    left: 59.1145vw;
-    top: 137.147vh;
-    
-    background: #1b2a4a;
-    border-radius: 27.9651px;
+  margin-left: 1vw;
+  width: 7.55vw;
+  height: 3.31vh;
+  left: 59.1145vw;
+  top: 137.147vh;
+  
+  background: #1b2a4a;
+  border-radius: 27.9651px;
 }
-.domain-text
-{
-    margin-left: 20%;
-    width: 6.57vw;
-    height: 3.36vh;
-    left: 51.49vw;
-top: 137.11vh;
+.domain-text {
+  
+  margin-left: 8vw;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.5756px;
+  line-height: 24px;
+  /* identical to box height */
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 19.5756px;
-line-height: 24px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }
