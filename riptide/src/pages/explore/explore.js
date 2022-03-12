@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from '../projectCards/projectCard';
+import DashboardCard from '../dashboard/dashBoardCards/dashBoardCard';
 import "./explore.css";
 
 function Explore() {
@@ -36,7 +36,8 @@ function Explore() {
           <label htmlFor="both">both</label>
         </div>
 
-        <ProjectCard/>
+        <DashboardCard/>
+        <DashboardCard/>
       </div>
     </>
   )

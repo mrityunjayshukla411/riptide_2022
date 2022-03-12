@@ -1,4 +1,5 @@
 import React from 'react'
+import CreatePost from '../createPost/createPost';
 import "./dashboard.css";
 import TabsComponent from './tabs';
 
@@ -6,19 +7,19 @@ import TabsComponent from './tabs';
 function Dashboard() {
   return (
     <>
+      <CreatePost className='create-post'/>
     <div className="dashboard-container">
-
       <div className='dashboard'>
         <div className="circle">
-          ss
+          UN
         </div>
         <div className="upper">
-          <div className="name">shreyas shah</div>
+          <div className="name">University Name</div>
         </div>
         <div className="lower">
-          <div className="username">shreyaslshah</div>
-          <div className="email">shreyaslshah@gmail.com</div>
-          <div className="change-password">Change Password</div>
+          <div className="username">university@uni.com</div>
+          <div className="email"></div>
+          <div className="change-password">Post Project</div>
         </div>
       </div>
       <TabsComponent/>

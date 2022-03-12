@@ -51,8 +51,8 @@ export default function TabsComponent() {
       <Box sx={{ width: '100%' }}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
-            <Tab label="Courses you have viewed" {...a11yProps(0)} />
-            <Tab label="Jobs you have viewed" {...a11yProps(1)} />
+            <Tab label="All Projects" {...a11yProps(0)} />
+            <Tab label="Most Liked Projects" {...a11yProps(1)} />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
@@ -60,7 +60,8 @@ export default function TabsComponent() {
           <DashboardCard />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          dlsfj
+        <DashboardCard />
+          <DashboardCard />
         </TabPanel>
       </Box>
     </div>
