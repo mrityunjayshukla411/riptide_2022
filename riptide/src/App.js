@@ -7,7 +7,7 @@ import Dashboard from "./pages/dashboard/dashboard";
 import Explore from "./pages/explore/explore";
 import Login from "./pages/login/login";
 import Signup from "./pages/signup/signup";
-
+import Landing from "./pages/landing/Landing";
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />}/>
           <Route path="/login" element={<Login />}/>
           <Route path="/register" element={<Signup />}/>
+          <Route path="/home" element={<Landing />}/>
         </Routes>
       </Router>
     </div>

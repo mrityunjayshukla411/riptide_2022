@@ -20,7 +20,7 @@ function PrettyPartciles() {
                     background: {
                         color: {
                             // value: "#1a0880",
-                            value: "#06003b",
+                            value: "#1B2A4A",
                         },
                     },
                     fps_limit: 30,
@@ -41,9 +41,9 @@ function PrettyPartciles() {
                         }
                     },
                     particles: {
-                        color: { value: "#1dad9a" },
+                        color: { value: "#1D90F4" },
                         line_linked: {
-                            color: "#1dad9a",
+                            color: "#1D90F4",
                             distance: 150,
                             enable: true,
                             opacity: 0.4,
